@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $mainFont;
+    color: $greySecond;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer !important;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    color: $blueMain;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p, h6 {
+    margin: 0;
+}
+
+button {
+    /* line-height: 1.15; */
+    line-height: 1;
+}
+
+ul {
+    padding: 0;
+    margin: 0.75rem;
+}
+
+li {
+    list-style: none;
+}
+
+*:focus {
+    outline: none;
+}

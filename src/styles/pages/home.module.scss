@@ -1,0 +1,10 @@
+@import '../globals/_variables';
+@import '../globals/_fonts';
+@import '../globals/_mixins';
+
+
+
+// Animations
+.animate__animated {
+    animation-duration: 2s !important;
+}

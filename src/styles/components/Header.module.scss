@@ -1,0 +1,13 @@
+@import '../globals/_variables';
+@import '../globals/_mixins';
+
+.home_header {
+    width: 60%;
+    margin: 1rem auto 0;
+    @include tablet {
+        width: 30%;
+    }
+    @include desktop {
+        width: 15%;
+    }
+}

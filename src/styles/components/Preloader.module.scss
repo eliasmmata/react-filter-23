@@ -1,0 +1,23 @@
+.preloader_section {
+    background: linear-gradient(17deg, rgb(255, 255, 255) 16%, rgb(167, 199, 241) 62%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .preloader_container {
+        & img {
+            margin: -10vh auto 5vh auto;
+            animation: bounce, fadeIn;
+            overflow: visible;
+        }
+    }
+}
+
+// Animations
+.animate__animated {
+    animation-duration: 2s !important;
+
+}
+.animate__fadeInUp {
+    animation-duration: 3s !important;
+}

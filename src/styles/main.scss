@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~animate.css';
+@import '~normalize.css';
+@import "~primeicons/primeicons.css";
+
+// Import global styles
+@import './globals/_fonts';
+@import './globals/_variables';
+@import './globals/_globals';
+@import './globals/_mixins';
+
+
+// Import component styles
+@import "./components/Preloader.module.scss";
+@import "./components/Button.module.scss";
+@import "./components/Products.module.scss";
+
+// Import page styles
+@import "./pages/home.module.scss";
+
