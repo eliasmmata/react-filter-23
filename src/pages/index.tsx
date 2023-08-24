@@ -38,7 +38,7 @@ const HomePage: NextPage = () => {
     const [searchHidden, setSearchHidden] = useState<boolean>(false);
 
     // Results array from filter click glass
-    const [searchResults, setSearchResults] = useState<Product[]>([]);
+    const [searchResults, setSearchResults] = useState<any[]>([]);
 
 
     useEffect(() => {
