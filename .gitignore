@@ -6,6 +6,7 @@ node_modules
 .pnp.js
 
 # testing
+*test.tsx
 coverage
 test-results
 junit.xml
