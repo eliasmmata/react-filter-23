@@ -111,7 +111,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             </div>
             {/* Conditionally render FilteredProductSearch if searchProduct from input is not an empty string */}
             {searchProduct.length > 0 ?
-                <FilteredProductSearch searchProduct={searchProduct} />
+                <FilteredProductSearch searchProduct={searchProduct}  products={products} />
                 :
                 <div className={styles.no_results_container}>
                     <h4>Tendencias</h4>
