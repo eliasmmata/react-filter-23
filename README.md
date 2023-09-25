@@ -1,5 +1,5 @@
 
-# Mayoral Frontend Assignment
+# REACT FILTER
 
 ## Tecnologías/Librerías utilizadas:
 
@@ -23,8 +23,6 @@ npm run dev
 
 - Componentes separados
 - Estilado con SASS
-(Por cambiar un poco aunque hacía tiempo no lo usaba y fui rápido
-Para ver cómo suelo estilar puedo enseñaros mis últimos proyectos de NEXTjs.)
 - Cambia la vista con los iconos indicados en la foto (He mirado los de la web para hacerla un poco más real)
   - Escritorio de 4 a 3 elementos (en la imagen había 5 pero lo he hecho como en las indicaciones.)
   - Móvil de 3 a 2 elementos
